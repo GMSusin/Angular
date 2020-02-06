@@ -1,0 +1,140 @@
+.container {
+    background: url(/assets/Images/accommodations-bg-desktop.jpg) no-repeat;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: calc(100vh - 145);
+}
+
+.The-best-acc-container {
+    padding: 35px 115px;
+}
+
+.The-best-acc-button {
+    width:  250px;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.header-container {
+    padding: 60px 20px;
+    height: 100vh;
+    text-align: center;
+    max-width: 1000px;
+    /*color: white;
+    border-bottom-style: solid;
+    margin-bottom: 40px;
+    border-bottom-width: 0px;
+    margin-top: 180px;*/
+}
+
+.home-section {    
+} 
+
+.home-section p {
+    text-align: center;
+    line-height: normal;
+}
+
+.rooms-home-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.rooms-home-display .mat-card {
+    position: relative;
+    text-align: center;
+}
+.best-room-Alfa-display {
+    background: url(/assets/Images/room_of_month.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Bravo-display {
+    background: url(/assets/Images/room_of_year.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Charlie-display {
+    background: url(/assets/Images/caribe_room.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Delta-display {
+    background: url(/assets/Images/room_1.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Echo-display {
+    background: url(/assets/Images/room_2.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Foxtrot-display {
+    background: url(/assets/Images/room_3.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Golf-display {
+    background: url(/assets/Images/room_4.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.best-room-Hotel-display {
+    background: url(/assets/Images/room_5.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.rooms-home-display mat-card {
+    height: 600px;
+}
+
+.rooms-home-display mat-card-header h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 10px;
+
+}
+.rooms-home-display mat-card-header{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    background: rgba(255, 248, 225, .6);
+}
+
+.rooms-home-display mat-card-actions {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rooms-home-display mat-card button {
+    min-width: 141px;
+    min-height: 40px;
+}
+/*.home-section .mat-subheading-2 {
+    text-align: center;
+    line-height: normal;
+}
+
+.home-section .mat-subheading-3 {
+    text-align: center;
+    line-height: normal;
+}*/
