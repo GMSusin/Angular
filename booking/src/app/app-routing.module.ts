@@ -1,23 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AccomodationComponent } from './accomodation/accomodation.component';
-import { CelebrationsComponent } from './celebrations/celebrations.component';
-import { FoodAndBeverageComponent } from './food-and-bevarage/food-and-bevarage.component';
-import { LifestyleComponent } from './lifestyle/lifestyle.component';
-import { WeddingsComponent } from './weddings/weddings.component';
 import { OffersComponent } from './offers/offers.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HomeComponent } from './home/home.component';
-
+import { HighestpricesComponent} from './highestprices/highestprices.component';
+import { LowestpricesComponent} from './lowestprices/lowestprices.component';
 
 const routes: Routes = [
   {path: 'accomodation', component: AccomodationComponent},
-  {path: 'celebrations', component: CelebrationsComponent},
-  {path: 'food-and-beverage', component: FoodAndBeverageComponent},
-  {path: 'foodandbeverage', redirectTo: 'food-and-beverage', pathMatch: 'full'},
-  {path: 'lifestyle', component: LifestyleComponent},
-  {path: 'weddings', component: WeddingsComponent},
+  {path: 'highestprices', component: HighestpricesComponent},
+  {path: 'lowestprices', component: LowestpricesComponent},
   {path: 'offers', component: OffersComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'signup', component: SignupComponent},

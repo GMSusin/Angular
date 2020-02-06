@@ -1,19 +1,62 @@
 <div class="container">
     <div class="book-now-container"> 
-        <div fxFlex fxFlexLayoutAlign="flex-end">
+        <div fxFlex fxFlexAlign="end">
             <button class="book-now-button" mat-stroked-button color="primary">
                 Book Now
             </button>
         </div>
     </div>
-    <div class="header-container" fxLayout="row" fxLayoutAlign="center center">
+    <div class="header-container" fxLayout='row' fxLayout='column' fxLayoutAlign='center center'>
         <div>
             <h3>
-                Book With Us!
+               Welcome to the 3D booking!
             </h3>
           <h1>
-            Duck Donald's Booking
+            Duck Donald's Domain
           </h1>  
         </div >
     </div>
 </div>
+
+<section class="home-section">
+    <div fxLayout='column' fxFlexAlign='center'>
+        <div fxLayout='column' fxFlexAlign='center'>
+            <h2 class="mat-subheading-2">
+                Most visited of the Year!
+            </h2>
+        </div>
+        <div fxLayout='column' fxFlexAlign='center'>
+            <h3 class="mat-subheading-3">
+                Best Offer of the Week!
+            </h3>
+        </div>
+        <div>
+            <p class="mat-body-1">
+                teste
+            </p>
+        </div>
+    </div>
+
+    <!--<div fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+        teste
+    </div>-->
+    <div class="rooms-home-display" fxLayout.xs='column' fxLayout='row' fxLayoutAlign="center">
+        <mat-card class="best-room-year-display" fxFlex='50'>
+                <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                    <h2>Best Room of the Year</h2>
+                </mat-card-header>
+                <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                    <button mat-raised-button color="primary">Explore</button>
+                </mat-card-actions>          
+        </mat-card>
+
+        <mat-card class="best-room-month-display"  fxFlex='50'>
+                <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                    <h2>Best Room of the Month</h2>
+                </mat-card-header>
+                <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                    <button mat-raised-button color="primary">Explore</button>
+                </mat-card-actions>          
+        </mat-card>
+    </div>
+</section>

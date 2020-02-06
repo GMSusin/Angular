@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {MatBadgeModule, MatListModule, MatTabsModule} from '@angular/material';
+import {MatBadgeModule, MatListModule, MatTabsModule, MatCardModule, MatGridListModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
@@ -14,7 +14,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
         MatIconModule,
         MatToolbarModule,
         MatListModule,
-        MatTabsModule
+        MatTabsModule,
+        MatGridListModule,
+        MatCardModule
     ],
     exports: [
         MatBadgeModule,
@@ -23,7 +25,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
         MatIconModule,
         MatToolbarModule,
         MatListModule,
-        MatTabsModule
+        MatTabsModule,
+        MatGridListModule,
+        MatCardModule
     ]
 
 })
