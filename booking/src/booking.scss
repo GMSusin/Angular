@@ -21,10 +21,17 @@ $booking: mat-light-theme($booking-primary, $booking-accent, $booking-warn);
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
+@import './app/navigation/navtabs/navtabs.component-theme.scss';
+
 @include angular-material-theme($booking);
 
+//navtabs file
+@include navtabs-component-theme($booking);
 
-.navtabs-container {
-    background-color: mat-color($booking-accent);
-
+.mat.list-options:hover,
+.mat-list-options.mat-list-item-focus,
+.mat-nav-list .mat-list-item:hover,
+.mat-nav-list .mat-list-item.mat-list-item-focus {
+    background-color: mat-color($booking-primary);
+    color: mat-color($booking-primary, 900);
 }

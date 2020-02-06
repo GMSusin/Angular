@@ -1,0 +1,27 @@
+.container {
+    height: 100vh;
+    background: url(/assets/Images/background.jpg) no-repeat;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.book-now-container {
+    padding: 35px 115px;
+}
+
+.book-now-button {
+    width:  170px;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.header-container {
+    height: 100vh;
+    /*color: white;
+    border-bottom-style: solid;
+    margin-bottom: 40px;
+    border-bottom-width: 0px;
+    margin-top: 180px;*/
+}

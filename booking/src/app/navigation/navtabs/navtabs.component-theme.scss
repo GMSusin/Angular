@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($booking) {
+    $primary: map-get($booking, primary);
+    $accent: map-get($booking, accent);
+
+    //theming here
+    .navtabs-container {
+        background-color: mat-color($booking-accent);
+    }
+}
