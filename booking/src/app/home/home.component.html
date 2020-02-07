@@ -40,16 +40,18 @@
     <div class="rooms-home-display" fxLayout.xs='column' fxLayout='row' fxLayoutAlign="center">
         <mat-card class="best-room-year-display" fxFlex='50'>
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <h2>Best Room of the Year</h2>
+                    <h2>Best Hotel of the Year</h2>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">Explore</button>
+                    <a mat-list-item [routerLink]="['/accomodation/rooms']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">Explore</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
 
         <mat-card class="best-room-month-display"  fxFlex='50'>
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <h2>Best Room of the Month</h2>
+                    <h2>Best Hotel of the Month</h2>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <button mat-raised-button color="primary">Explore</button>
@@ -62,7 +64,7 @@
     <p class="mat-body-1">
         Our developer life in a nutshell:
         mom - "He's so smart"
-        dad - "that my boy"
-        gf  - "babe, I want attention"
+        dad - "That my boy"
+        gf  - "Babe, I want attention"
     </p>
 </div>
