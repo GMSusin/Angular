@@ -7,11 +7,13 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { HighestpricesComponent} from './highestprices/highestprices.component';
 import { LowestpricesComponent} from './lowestprices/lowestprices.component';
+import { RoomsComponent } from './accomodation/rooms/rooms.component';
 
 const routes: Routes = [
   {path: 'accomodation', component: AccomodationComponent},
   {path: 'highestprices', component: HighestpricesComponent},
   {path: 'lowestprices', component: LowestpricesComponent},
+  {path: 'accomodation/rooms', component: RoomsComponent},
   {path: 'offers', component: OffersComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'signup', component: SignupComponent},

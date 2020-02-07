@@ -1,11 +1,14 @@
 <div class="container">
     <div class="The-best-acc-container"> 
         <div fxFlex fxFlexAlign="end">
-            <button class="The-best-acc-button" mat-stroked-button color="primary">
-                The Best Accomodation
-            </button>
+            <a mat-list-item [routerLink]="['/accomodation/rooms']" (click)="onToggleClose()">
+                <button class="The-best-acc-button" mat-stroked-button color="primary">
+                    The Best accomodation
+                </button>
+            </a>
         </div>
     </div>
+
     <div class="header-container" fxLayout='row' fxLayout='column' fxLayoutAlign='center'>
         <div>
           <h1>
