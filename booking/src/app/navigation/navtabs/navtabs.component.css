@@ -1,3 +1,6 @@
 .toolbar-flex {
     flex: 1 0.5 auto;
 }
+.offers-button {
+    color: purple;
+}

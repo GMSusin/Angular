@@ -24,9 +24,10 @@
             [active]="lowestprices.isActive">
             Lowest Prices
         </a>
-        <a mat-tab-link routerLink="/offers"
+        <a class="offers-button" mat-tab-link routerLink="/offers"
             routerLinkActive #offers="routerLinkActive"
             [active]="offers.isActive">
+            <mat-icon>loyalty</mat-icon>
             Offers
         </a>
     </nav>

@@ -1,17 +1,17 @@
 .container {
-    background: url(/assets/Images/background.jpg) no-repeat;
+    background: url(/assets/Images/room_of_year.jpg) no-repeat;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
     height: calc(100vh - 145);
 }
 
-.book-now-container {
+.The-best-acc-container {
     padding: 35px 115px;
 }
 
-.book-now-button {
-    width:  170px;
+.The-best-acc-button {
+    width:  200px;
     color: white;
     border: 1px solid white;
     text-transform: uppercase;
@@ -19,11 +19,11 @@
 }
 
 .header-container {
-    padding: 60px 20px;
+    padding: 80px 20px;
     height: 100vh;
     text-align: center;
     max-width: 1000px;
-    color: white;
+    color: black;
     /*color: white;
     border-bottom-style: solid;
     margin-bottom: 40px;
@@ -31,8 +31,6 @@
     margin-top: 180px;*/
 }
 
-.home-section {    
-} 
 
 .home-section p {
     text-align: center;
@@ -49,18 +47,7 @@
     position: relative;
     text-align: center;
 }
-.best-room-month-display {
-    background: url(/assets/Images/room_of_month.jpg);
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
-.best-room-year-display {
-    background: url(/assets/Images/room_of_year.jpg);
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
+
 .rooms-home-display mat-card {
     height: 600px;
 }
@@ -93,6 +80,32 @@
 .rooms-home-display mat-card button {
     min-width: 141px;
     min-height: 40px;
+}
+
+.Bathroom-display {
+    background: url(/assets/Images/bathroom.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.Subway-display {
+    background: url(/assets/Images/subway.jpg);
+    background-size:   auto;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Bed-display {
+    background: url(/assets/Images/bed.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.Breakfast-display {
+    background: url(/assets/Images/breakfast.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 /*.home-section .mat-subheading-2 {
     text-align: center;

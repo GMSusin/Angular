@@ -3,7 +3,10 @@
         <mat-card class="best-room-Alfa-display" fxFlex='50'>
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <h2>Hotel Alfa</h2>
+                    <mat-icon>stars</mat-icon>
                     <mat-icon>loyalty</mat-icon>
+                    <mat-icon>signal_wifi_4_bar</mat-icon>
+                    <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <button mat-raised-button color="primary">$500,00/d</button>
@@ -14,12 +17,15 @@
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <h2>Hotel Foxtrot</h2>
                     <mat-icon>loyalty</mat-icon>
+                    <mat-icon>signal_wifi_4_bar</mat-icon>
+                    <mat-icon>commute</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <button mat-raised-button color="primary">$300,00/d</button>
                 </mat-card-actions>          
         </mat-card>
     </div>
+    
 </section>
 <section class="home-section">
     <div class="rooms-home-display" fxLayout.xs='column' fxLayout='row' fxLayoutAlign="center">
@@ -27,6 +33,8 @@
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <h2>Hotel Echo</h2>
                     <mat-icon>loyalty</mat-icon>
+                    <mat-icon>signal_wifi_4_bar</mat-icon>
+                    <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <button mat-raised-button color="primary">$250,00/d</button>
@@ -37,10 +45,32 @@
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <h2>Hotel Delta</h2>
                     <mat-icon>loyalty</mat-icon>
+                    <mat-icon>loyalty</mat-icon>
+                    <mat-icon>signal_wifi_off</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <button mat-raised-button color="primary">$200,00/d</button>
                 </mat-card-actions>          
         </mat-card>
+    </div>
+</section>
+
+<section class="home-section">
+    <div class="rooms-home-display" fxLayout.xs='column' fxLayout='row' fxLayoutAlign="center">
+        <mat-card class="best-room-Bravo-display"  fxFlex='50'>
+            <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                <h2>Hotel Bravo</h2>
+                <mat-icon>stars</mat-icon>
+                <mat-icon>loyalty</mat-icon>
+                <mat-icon>signal_wifi_4_bar</mat-icon>
+                <mat-icon>commute</mat-icon>
+                <mat-icon>emoji_food_beverage</mat-icon>
+            </mat-card-header>
+            <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
+                <a mat-list-item [routerLink]="['/accomodation/room-bravo']" (click)="onToggleClose()">
+                    <button mat-raised-button color="primary">$750,00/d</button>
+                </a>
+            </mat-card-actions>    
+    </mat-card>
     </div>
 </section>

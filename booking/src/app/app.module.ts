@@ -17,6 +17,14 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LowestpricesComponent } from './lowestprices/lowestprices.component';
 import { HighestpricesComponent } from './highestprices/highestprices.component';
+import { RoomAlfaComponent } from './accomodation/room-alfa/room-alfa.component';
+import { RoomBravoComponent } from './accomodation/room-bravo/room-bravo.component';
+import { RoomCharlieComponent } from './accomodation/room-charlie/room-charlie.component';
+import { RoomDeltaComponent } from './accomodation/room-delta/room-delta.component';
+import { RoomEchoComponent } from './accomodation/room-echo/room-echo.component';
+import { RoomFoxtrotComponent } from './accomodation/room-foxtrot/room-foxtrot.component';
+import { RoomGolfComponent } from './accomodation/room-golf/room-golf.component';
+import { RoomOmegaComponent } from './accomodation/room-omega/room-omega.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +40,15 @@ import { HighestpricesComponent } from './highestprices/highestprices.component'
     SidenavListComponent,
     NavtabsComponent,
     LowestpricesComponent,
-    HighestpricesComponent
+    HighestpricesComponent,
+    RoomAlfaComponent,
+    RoomBravoComponent,
+    RoomCharlieComponent,
+    RoomDeltaComponent,
+    RoomEchoComponent,
+    RoomFoxtrotComponent,
+    RoomGolfComponent,
+    RoomOmegaComponent
    ],
   imports: [
     BrowserModule,

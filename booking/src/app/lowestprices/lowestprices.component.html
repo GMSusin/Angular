@@ -82,7 +82,9 @@
                     <h2>Hotel Bravo</h2>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$750,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-bravo']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$750,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
     </div>
