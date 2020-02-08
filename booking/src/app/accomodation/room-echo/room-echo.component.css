@@ -1,5 +1,5 @@
 .container {
-    background: url(/assets/Images/room_of_year.jpg) no-repeat;
+    background: url(/assets/Images/room_2.jpg) no-repeat;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
@@ -83,26 +83,20 @@
 }
 
 .Bathroom-display {
-    background: url(/assets/Images/bathroom.jpg);
+    background: url(/assets/Images/bathroom_echo.jpg);
     background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
-.Subway-display {
-    background: url(/assets/Images/subway.jpg);
-    background-size:   auto;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 
 .Bed-display {
-    background: url(/assets/Images/bed.jpg);
+    background: url(/assets/Images/room_echo.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 .Breakfast-display {
-    background: url(/assets/Images/breakfast.jpg);
+    background: url(/assets/Images/breakfast_echo.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 

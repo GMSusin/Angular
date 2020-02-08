@@ -1,5 +1,5 @@
 .container {
-    background: url(/assets/Images/room_of_year.jpg) no-repeat;
+    background: url(/assets/Images/room_1.jpg) no-repeat;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
@@ -23,7 +23,7 @@
     height: 100vh;
     text-align: center;
     max-width: 1000px;
-    color: black;
+    color: white;
     /*color: white;
     border-bottom-style: solid;
     margin-bottom: 40px;
@@ -83,30 +83,18 @@
 }
 
 .Bathroom-display {
-    background: url(/assets/Images/bathroom.jpg);
+    background: url(/assets/Images/bathroom_delta.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
-.Subway-display {
-    background: url(/assets/Images/subway.jpg);
-    background-size:   auto;                      /* <------ */
+.Bed-display {
+    background: url(/assets/Images/room_delta.jpg);
+    background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 
-.Bed-display {
-    background: url(/assets/Images/bed.jpg);
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
-.Breakfast-display {
-    background: url(/assets/Images/breakfast.jpg);
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
 /*.home-section .mat-subheading-2 {
     text-align: center;
     line-height: normal;

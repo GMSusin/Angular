@@ -1,7 +1,7 @@
 <div class="container">
     <div class="The-best-acc-container"> 
         <div fxFlex fxFlexAlign="end">
-            <a mat-list-item [routerLink]="['/accomodation/rooms']" (click)="onToggleClose()">
+            <a mat-list-item [routerLink]="['/accomodation/room-bravo']" (click)="onToggleClose()">
                 <button class="The-best-acc-button" mat-stroked-button color="primary">
                     The Best accomodation
                 </button>
@@ -29,9 +29,10 @@
                     <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$500,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-alfa']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$500,00/d</button>
+                    </a>
                 </mat-card-actions>          
-
         </mat-card>
 
         <mat-card class="best-room-Bravo-display"  fxFlex='50'>
@@ -56,12 +57,13 @@
         <mat-card class="best-room-Charlie-display" fxFlex='50'>
                 <mat-card-header fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
                     <h2>Hotel Charlie</h2>
-                    <mat-icon>loyalty</mat-icon>
                     <mat-icon>signal_wifi_4_bar</mat-icon>
                     <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$350,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-charlie']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$350,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
 
@@ -72,7 +74,9 @@
                     <mat-icon>signal_wifi_off</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$200,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-delta']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$200,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
     </div>
@@ -87,7 +91,9 @@
                     <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$250,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-echo']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$250,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
 
@@ -99,7 +105,9 @@
                     <mat-icon>commute</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$300,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-foxtrot']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$300,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
     </div>
@@ -114,7 +122,10 @@
                     <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$500,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-golf']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$500,00/d</button>
+                    </a>
+
                 </mat-card-actions>          
         </mat-card>
 
@@ -125,7 +136,9 @@
                     <mat-icon>emoji_food_beverage</mat-icon>
                 </mat-card-header>
                 <mat-card-actions fxLayout='column' fxLayout='row' fxLayoutAlign='center'>
-                    <button mat-raised-button color="primary">$650,00/d</button>
+                    <a mat-list-item [routerLink]="['/accomodation/room-omega']" (click)="onToggleClose()">
+                        <button mat-raised-button color="primary">$650,00/d</button>
+                    </a>
                 </mat-card-actions>          
         </mat-card>
     </div>

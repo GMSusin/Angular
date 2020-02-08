@@ -1,5 +1,5 @@
 .container {
-    background: url(/assets/Images/room_of_year.jpg) no-repeat;
+    background: url(/assets/Images/room_5.jpg) no-repeat;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
@@ -83,7 +83,7 @@
 }
 
 .Bathroom-display {
-    background: url(/assets/Images/bathroom.jpg);
+    background: url(/assets/Images/bathroom_omega.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
@@ -96,13 +96,13 @@
 }
 
 .Bed-display {
-    background: url(/assets/Images/bed.jpg);
+    background: url(/assets/Images/room_omega.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 .Breakfast-display {
-    background: url(/assets/Images/breakfast.jpg);
+    background: url(/assets/Images/breakfast_omega.jpg);
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
